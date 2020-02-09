@@ -15,6 +15,18 @@ namespace _4_StartingWithClasses
             Console.WriteLine(account.Balance);
 
             Console.WriteLine(account.GetAccountHistory());
+
+            /*
+                The logic
+
+                First we create an account with the name `Fey Ijaware` which has an initial balance of 1000
+                We then withdraw 500 from the account
+                Leaving the account with a balance of 500
+                Then we make a deposit of 100
+                Which increases the account balance to 600
+
+                Mess with the numbers and change the amount of withdraws and deposit and see how the account history changes
+            */
         }
     }
 }

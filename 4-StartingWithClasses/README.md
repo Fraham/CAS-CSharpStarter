@@ -27,12 +27,12 @@ The constructor does the following:
 
 ## Things to extend
 
-We are able to overload constructors in classes in the same way we can with methods. So we can extend the `BankAccount` class to have a new constructor. To make the calling call easier we have a constructor that just takes a name and set there `initialBalance` to zero. We are also able to call a constructor from another constructor
+We are able to overload constructors in classes in the same way we can with methods. So we can extend the `BankAccount` class to have a new constructor. To make the calling call easier we have a constructor that just takes a name and set there `initialBalance` to ten. We are also able to call a constructor from another constructor
 
 ```c#
-public BankAccount(string name)
+public BankAccount(string name) : this(name, 10)
 {
-    this.BankAccount(name, initialBalance: 0)
+
 }
 ```
 
